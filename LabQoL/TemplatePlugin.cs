@@ -73,7 +73,9 @@ namespace LabQoL
                 if (Settings.Tukohamas_Vanguard)
                     DrawTextLabelSpecter(Color.Yellow, "Tukohama's" + Environment.NewLine + "Vanguard", "Metadata/Monsters/KaomWarrior/KaomWarrior7", 120);
                 if (Settings.WickerMan)
-                    DrawTextLabelSpecter(Color.Yellow, "WickerMan", "Metadata/Monsters/WickerMan/WickerMan", 120);
+                    DrawTextLabelSpecter(Color.Yellow, "WickerMan", "Metadata/Monsters/WickerMan/WickerMan", 120);				
+				if (Settings.WickerMan)
+                    DrawTextLabelSpecter(Color.Red, "ABCD", "Metadata/NPC/Missions/Hideout/StrDexInt", 120);
             }
 
             if (Settings.Sentinels)
